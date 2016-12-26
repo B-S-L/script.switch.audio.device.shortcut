@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.switch.audio.device.shortcut" name="Audio Output Device Switch" version="1.0.0" provider-name="bsl">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.pydevd" version="4.4.0"/>
+	</requires>		
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Switch between output audio devices</summary>
+		<description lang="en">
+		Shortcut t switch between available audio output devices.
+		Run e.g. via "keymap editor" addon binding it to a desired key (choose, e.g., Global - Add-Ons - Launch Audio Output Device Switch)</description>
+		<license>MIT License</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email>bsl at sechssaiten.de</email>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
